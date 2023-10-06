@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@400;500;600&family=Quicksand:wght@500&display=swap');
+
+.up {
+    background-color: #1e232a;
+    margin-top: 5px;
+    width: auto;
+    height: 450px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+}
+
+.bottom {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.re {
+    top: 40px;
+    position: relative;
+    font-size: 30px;
+    font-family: "Dela Gothic One", cursive;
+}
+
+.faccione {
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.desc {
+    top: 70px;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.desc2 {
+    top: 50px;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+/* .icon{
+    align-items: center;
+    top: 400px;
+} */
+
+div#testata {
+    height: 125px;
+    background-color: #1e232a; /*valori in senso orario*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 80px 500px 80px;/*primo valore definisce il margine alto e basso, mentre il secondo valore definisce il margine di destra e sinistra*/ /*primo alto,secondo di destra, terzo margine inferiore, quarto di sinistra*/
+    border-radius: 20px;/*primo in alto a sinistra, secondo in alto a destra, terzo in basso a destra, quarto in basso a sinistra*/
+    color: white; /*4 47 15*/
+}
+
+a.dentro-testata {
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+p.dentro-testata {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.youtube {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.tik {
+    color: #B1EDE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.insta {
+    color: rgb(247, 101, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.shop {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.end {
+    background-color: black;
+    height: 80px;
+}
+
+.credit {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
