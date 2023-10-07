@@ -135,9 +135,9 @@ p.dentro-testata {
     font-family: 'Quicksand', sans-serif;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 414px) {
     div#testata {
-        height: 150px;
+        height: 200px;
         background-color: #1e232a; /*valori in senso orario*/
         background-size: auto;
         background-position: center;
