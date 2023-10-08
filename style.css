@@ -224,7 +224,7 @@ p.dentro-shop {
 
 .end {
     background-color: black;
-    height: 80px;
+    height: 100px;
 }
 
 .credit {
@@ -237,7 +237,7 @@ p.dentro-shop {
 
 @media screen and (min-width: 350px) {
     div#testata {
-        height: 200px;
+        height: 150px;
         background-color: #1e232a; /*valori in senso orario*/
         background-size: auto;
         background-position: center;
@@ -253,5 +253,93 @@ p.dentro-shop {
 
     div.end {
         bottom: 20px;
+    }
+
+    .i-t {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .i-y {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        margin-top: 2px;
+        margin-left: 60px;
+    }
+
+    
+    .i-tik {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .i-insta {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .i-re {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    p.dentro-tw {
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    
+    p.dentro-yt {
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: -10px;
+        font-size: 15px;
+    }
+
+    p.dentro-tik {
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: -5px;
+        font-size: 15px;
+    }
+
+    p.dentro-insta {
+        color: white;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: -5px;
+        font-size: 15px;
+    }
+
+    p.dentro-shop {
+        display: none;
+    }
+
+    div#testata-sito {
+        height: 150px;
+        background-color: #1e232a; /*valori in senso orario*/
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 50px 80px 20px;/*primo valore definisce il margine alto e basso, mentre il secondo valore definisce il margine di destra e sinistra*/ /*primo alto,secondo di destra, terzo margine inferiore, quarto di sinistra*/
+        border-radius: 20px;/*primo in alto a sinistra, secondo in alto a destra, terzo in basso a destra, quarto in basso a sinistra*/
+        color: white; /*4 47 15*/
     }
 }
