@@ -83,9 +83,106 @@ p.dentro-testata {
     color: white;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    margin-top: -100px;
+    font-size: 20px;
 }
 
-.youtube {
+p.dentro-tik {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+.i-t {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+
+.i-y {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.i-tik {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: -45px;
+}
+
+.i-insta {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: -55px;
+}
+
+.i-re {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: -55px;
+}
+
+p.dentro-yt {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -90px;
+    font-size: 30px;
+}
+
+p.dentro-tw {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -100px;
+    font-size: 30px;
+}
+
+p.dentro-tik {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -100px;
+    font-size: 30px;
+}
+
+p.dentro-insta {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -120px;
+    font-size: 30px;
+}
+
+p.dentro-shop {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -120px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.titolo-tw {
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.titolo-youtube {
     color: red;
     display: flex;
     justify-content: center;
@@ -95,7 +192,7 @@ p.dentro-testata {
     text-decoration: none;
 }
 
-.tik {
+.titolo-tik {
     color: #B1EDE8;
     display: flex;
     justify-content: center;
@@ -105,7 +202,7 @@ p.dentro-testata {
     text-decoration: none;
 }
 
-.insta {
+.titolo-insta {
     color: rgb(247, 101, 201);
     display: flex;
     justify-content: center;
@@ -133,7 +230,10 @@ p.dentro-testata {
 .credit {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    margin-top: 50px;
 }
+
+
 
 @media screen and (min-width: 350px) {
     div#testata {
